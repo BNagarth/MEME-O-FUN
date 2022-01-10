@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    
+    
+}
+nav{
+    position: fixed;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    align-items:center ;
+    background-color: grey;
+    height: 6rem;
+    font-weight:bolder ;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid black;
+         
+}
+li{
+    padding-left: 2rem;
+}
+.link1{
+    padding-left: 57rem;
+   
+}
+.link2{
+    padding-left: 1.5rem;
+    
+}
+.link3{
+    padding-left: 2rem;
+   
+}
+.login{
+    width: 7rem;
+    height:2.5rem;
+    background-color: white;
+    border-radius: 2rem;
+    border-width: .2rem;
+    border-color: black;
+}
+.logo img{
+    height: 5rem;
+    width: 9rem;
+}
+
+
+.cards{
+    width: 18%;
+    background-color:rgb(181, 15, 15);
+    margin-top: auto;
+    display: inline-block;
+    margin:7rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px black;
+
+    
+    
+}
+.image img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-height: 13rem;
+    height: 13rem;
+    
+    
+}
+
+
+.title{
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 10px;
+}
+.register{
+    width: 7rem;
+    height:2.5rem;
+    background-color: white;
+    border-radius: 2rem;
+    border-width: .2rem;
+    border-color: black;
+}
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.social_media a{
+    font-size: 24px;
+    padding: 10px;
+    
+}
+.copyright{
+    padding-top: 20px;
+}
+button:hover{
+    background-color:aqua;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
